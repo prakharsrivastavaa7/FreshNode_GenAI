@@ -49,7 +49,7 @@ export default function PitchPage() {
         </div>
 
         {/* SECTION 1: HERO */}
-        <section id="home" className="pt-40 pb-20 md:pt-48 md:pb-32 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col justify-center">
+        <section id="home" className="pt-40 pb-8 md:pt-48 md:pb-10 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-12 items-center">
             <FadeIn className="flex flex-col items-start text-left">
               <div className="inline-flex items-center px-3 py-1 rounded-full border border-primary/20 bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-8">
@@ -409,6 +409,44 @@ export default function PitchPage() {
               </FadeIn>
             ))}
           </div>
+        </section>
+
+        {/* SECTION: OPERATOR MESSAGE */}
+        <section id="partners" className="py-24 px-6 max-w-4xl mx-auto">
+          <FadeIn>
+            <div className="relative rounded-3xl border border-white/8 bg-[#111] overflow-hidden">
+              {/* Subtle green gradient corner */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 blur-[80px] rounded-full pointer-events-none" />
+              <div className="relative p-10 md:p-14">
+                {/* Label */}
+                <div className="flex items-center gap-2 mb-8">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                  <span className="text-xs font-semibold uppercase tracking-widest text-primary">Message to Grocery Operators</span>
+                </div>
+                {/* Post body */}
+                <div className="space-y-5 text-[1.08rem] leading-relaxed text-white/75 max-w-2xl">
+                  <p>Every day, grocery stores throw away food that could still be sold.</p>
+                  <p>Not because no one wants it — but because stores identify slow-moving perishables too late and markdowns happen after the selling window has already shrunk.</p>
+                  <p className="text-white font-medium">FreshNode helps fix that.</p>
+                  <p>It identifies which items are unlikely to sell in time, surfaces markdown recommendations as freshness drops, and pushes those offers to nearby customers who are ready to buy. Instead of waiting for waste, stores can act earlier and recover value.</p>
+                  <p>That means fewer write-offs, lower disposal costs, and better sell-through on perishable inventory. Customers get quality groceries at lower prices. Stores move stock before it becomes dead loss.</p>
+                  <p className="text-white/90 font-medium border-t border-white/8 pt-5">We are now live and onboarding early grocery partners.</p>
+                  <p>If you run a store and still manage perishable markdowns manually, reach out. We would love to show you how FreshNode works.</p>
+                </div>
+                {/* CTA */}
+                <div className="mt-10 flex flex-wrap items-center gap-4">
+                  <button
+                    onClick={() => window.location.href = "mailto:hello@freshnode.in?subject=Interested in FreshNode for my store"}
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary/10 border border-primary/30 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
+                  >
+                    Send a message
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                  <span className="text-xs text-white/30">hello@freshnode.in</span>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
         </section>
 
         {/* SECTION 9: ROADMAP */}
