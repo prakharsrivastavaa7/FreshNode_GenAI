@@ -1,0 +1,14 @@
+packages:
+  "framer-motion": "For smooth scroll-based fade-in animations and premium micro-interactions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+
+images:
+  - path: "artifacts/freshnode/public/images/hero-glow.png"
+    description: "Subtle abstract dark mesh background with a very soft, faint emerald green glow in the center, almost entirely black, minimalist, premium startup aesthetic"
+    aspect_ratio: "16:9"
+
+notes:
+  - Pure frontend static investor pitch page.
+  - No backend integration required.
+  - CTA buttons trigger mailto links.

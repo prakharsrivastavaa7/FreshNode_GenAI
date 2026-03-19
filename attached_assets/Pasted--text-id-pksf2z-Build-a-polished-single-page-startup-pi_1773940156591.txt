@@ -1,0 +1,197 @@
+```text id="pksf2z"
+Build a polished single-page startup pitch website for a product called FreshNode.
+
+Context:
+This site is not for consumers or grocery store managers. The primary audience is VC investors and early angel investors evaluating whether the business is sharp, credible, focused, and venture-backable. The site should feel like a modern fundable startup pitch, not a generic SaaS landing page.
+
+Core product narrative:
+FreshNode is a same-day clearance workflow tool for fast-expiring inventory in small supermarket chains and premium neighborhood grocers. It should not be presented as a broad AI company, a marketplace, or an all-in-one perishables platform. Position it as narrow, workflow-led, operationally credible, and execution-first.
+
+One-line positioning:
+FreshNode helps neighborhood grocery chains recover value from fast-expiring inventory through a daily clearance workflow that identifies at-risk stock, recommends markdowns, and pushes same-day pickup offers to nearby repeat customers on WhatsApp.
+
+Key messaging principles:
+- Emphasize focus, operational realism, and disciplined scope
+- Avoid hype, buzzwords, and vague AI language
+- Do not overclaim automation or machine learning
+- Make the business feel credible, practical, and scalable in phases
+- The product is workflow-led, not AI-led
+- The tone should feel like a strong seed-stage or pre-seed investor pitch page
+
+Website goals:
+- Make investors understand the product in under 10 seconds
+- Clearly show the pain point, wedge, business model, and expansion logic
+- Signal that the founder understands adoption friction in Indian retail
+- Present FreshNode as a narrow entry point with potential to scale through workflow integration and decision data
+
+Visual style:
+- Dark mode only
+- Minimal, elegant, premium, modern
+- Aesthetic but restrained
+- Clean typography, strong spacing, subtle gradients, soft glow accents
+- High-end startup design, similar to a sharp SaaS/investor microsite
+- No clutter, no cartoonish illustrations, no generic stock photos
+- Use abstract visuals, clean diagrams, cards, metrics, simple flows, elegant UI blocks
+- Palette: black / charcoal background, off-white text, muted gray body text, subtle green accents to suggest freshness / recovery / margin improvement
+- Overall feel: calm, analytical, confident, premium
+
+Include the following sections in this order:
+
+1. Value Recovery for Fast-Expiring Inventory
+- Product name: FreshNode
+- Sharp headline focused on value recovery from fast-expiring grocery inventory
+- Subheadline that explains the product clearly in one sentence
+- 2 CTAs: “Request Investor Deck” and “See Workflow”
+- Add a compact right-side visual or product flow card showing:
+  At-risk stock identified → markdown recommended → WhatsApp clearance sent → pickup reserved
+- Include 3 short proof-style bullets below hero:
+  Narrow wedge
+  Workflow-led
+  Built for real store operations
+
+2. A Daily Margin Leak Hiding in Store Operations
+- Explain the core operational problem in urban grocery stores:
+  fast-expiring stock is identified too late, markdowns are inconsistent, and same-day clearance depends too much on footfall
+- Show the consequences:
+  margin loss, avoidable waste, inconsistent execution, staff burden
+- Make this investor-friendly and operational, not emotional
+- Use a 3 or 4 card layout for the pain points
+
+3. Why This Entry Point Wins First
+- Explain why FreshNode starts narrow instead of broad
+- Highlight initial customer profile:
+  5 to 20 store supermarket chains
+  premium neighborhood grocers
+  digital billing/POS already in place
+  meaningful perishables mix
+  one city cluster at a time
+- Highlight narrow categories:
+  dairy, bakery, packaged fresh, cut fruit, selected produce SKUs
+- This section should make the startup feel disciplined and credible
+
+4. How the Recovery Engine Works
+- Show Version 1 scope clearly with three core capabilities:
+  Daily at-risk stock identification
+  Manager-approved markdown recommendations
+  Local clearance broadcast and pickup reservation
+- Use a clean 3-step horizontal workflow or visual pipeline
+- Add a note that OCR is optional aid, not product backbone
+- Add a note that markdown logic starts with rules, not ML
+- Add a note that customer demand starts with opted-in repeat buyers on WhatsApp, not a mass marketplace
+- Make this section extremely clear and operational
+
+5. Focused by Design
+- Include a section that strengthens investor trust by explicitly saying what the company is not
+- Present this in a clean comparison layout:
+  Not a broad AI inventory platform
+  Not a consumer marketplace
+  Not auto-pricing for every SKU
+  Not for all store formats on day one
+- Then state what it is:
+  A store recovery tool for same-day clearance of fast-expiring inventory
+
+6. Revenue Model Aligned to Store Outcomes
+- Show hybrid model clearly:
+  Monthly platform fee per store
+  Small success fee on recovered markdown GMV above baseline
+- Present this simply and elegantly
+- Add a short line explaining why this aligns incentives with store recovery outcomes
+
+7. Proof That the Model Is Working
+- Use a clean dashboard/card style section
+- Include the actual KPIs:
+  waste reduction by category
+  recovered gross margin vs prior baseline
+  sell-through of flagged items
+  staff compliance rate
+  reservation fulfillment rate
+  repeat buyer rate for clearance offers
+  incremental labor minutes per store per day
+- Highlight the last point visually:
+  if labor minutes rise too much, the product fails
+- This section should make investors feel the company understands execution metrics
+
+8. Where Defensibility Actually Comes From
+- Position the moat realistically, not dramatically
+- Explain that moat emerges only through repeated operational execution
+- Include these pillars:
+  workflow integration into store operations
+  markdown timing and sell-through data by category
+  city-level density in similar store formats
+  trusted recovery benchmarks
+- Present it as “earned moat” rather than assumed moat
+
+9. The Path from Narrow Wedge to Scaled Platform
+- Show a credible phased scale story
+- Use a 4-step roadmap:
+  dominate one city and one store format
+  expand category coverage
+  build reliable recovery benchmarks
+  layer supplier / replenishment / broader inventory insights later
+- Emphasize that venture scale is earned after operational proof, not claimed upfront
+
+10. A Large Market Entered Through a Specific Pain Point
+- Frame market size carefully and credibly
+- Do not use inflated TAM language without grounding
+- Present a practical bottom-up market view around:
+  small supermarket chains and premium grocers in urban India
+  fast-expiring categories with repeated waste and markdown pain
+  city-cluster rollout potential
+- Make it feel thoughtful, not inflated
+- Use a clean visual hierarchy with TAM / wedge / expansion framing
+
+11. Why This Becomes Viable Now
+- Explain why timing makes sense:
+  more stores have digital POS
+  WhatsApp is already a natural customer communication layer
+  operating margins are under pressure
+  stores need recovery tools, not more dashboards
+- Keep it concise and sharp
+
+12. Back a More Credible Retail Recovery Layer
+- Make this feel investor-oriented
+- Headline should invite discussion on pilot, deck, or early conversations
+- CTA buttons:
+  Request Deck
+  Book Intro Call
+- Add a short founder-style line such as:
+  Built for operational recovery first. Scale comes later.
+
+13. Footer
+- Minimal, premium
+- FreshNode logo/text
+- Short tagline
+- Email capture or contact form
+- Simple nav links back to sections
+
+Functional requirements:
+- Single-page website
+- Smooth scroll navigation
+- Sticky top nav
+- Responsive across desktop and mobile
+- Subtle scroll-based animation
+- Elegant hover states
+- Strong visual hierarchy
+- Fast loading
+- Investor-grade polish
+
+Copy tone:
+- Sharp
+- Analytical
+- Credible
+- Minimal
+- No startup clichés
+- No buzzwords like revolutionizing, disrupting, leveraging AI, hyperlocal demand engine, seamless ecosystem, etc.
+
+Design guidance:
+- Add one refined visual diagram in the hero
+- Use card-based layouts for problem, metrics, moat, and roadmap
+- Use section dividers and spacing generously
+- Keep copy concise and punchy
+- Prioritize readability and trust over flashy motion
+- Make it feel like a premium startup site designed for investor conviction
+
+Output:
+Generate the full website with complete copy, layout, section structure, and styling.
+Make the copy investor-facing and ready to use.
+```

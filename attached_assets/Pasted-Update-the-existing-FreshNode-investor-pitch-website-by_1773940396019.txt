@@ -1,0 +1,46 @@
+Update the existing FreshNode investor pitch website by integrating the uploaded image file as a featured branded asset.
+
+Important:
+- The site already exists. Do not rebuild it from scratch.
+- Keep the current layout, copy, dark-mode aesthetic, investor-facing tone, and section structure intact.
+- This is an enhancement pass only.
+
+Image to use:
+- Use the uploaded FreshNode image from the project files
+- Treat it as a branded marketing visual that explains the product concept
+- Make sure the code references the local uploaded image correctly using the project file path
+- Do not use a placeholder image or external URL
+
+Primary change:
+- Add the uploaded image prominently in the hero section as the main visual support for the headline and subheadline
+- Place it inside a premium-looking dark container, mockup frame, or glass card so it feels intentional and polished
+- Preserve the image aspect ratio
+- Do not stretch, squash, or badly crop it
+- Add subtle rounded corners, shadow, border, and gentle glow so it fits the premium aesthetic
+- Ensure the text remains dominant and readable while the image supports comprehension
+
+Responsive behavior:
+- On desktop, the hero should feel balanced with text on one side and the image on the other, or a clean stacked layout if that looks better
+- On mobile, stack the image below the hero copy with strong spacing
+- Make sure the image remains crisp and visually centered on all screen sizes
+
+Visual constraints:
+- Maintain dark mode only
+- Keep the surrounding design minimal and investor-grade
+- The image itself is more colorful, so keep the surrounding section restrained and premium
+- Add breathing room around the image
+- Do not clutter the hero with too many extra decorative elements
+
+Optional caption:
+Add a very short caption near the image if it improves clarity, such as:
+- Visualizing the same-day clearance workflow
+- From at-risk inventory to same-day pickup
+
+Do not:
+- Rewrite the full site copy
+- Change the page structure unnecessarily
+- Add generic startup fluff
+- Replace the current design language
+
+Deliverable:
+Return the updated code for the existing site with the uploaded local image integrated cleanly into the hero.
