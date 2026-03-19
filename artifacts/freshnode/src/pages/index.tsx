@@ -49,7 +49,7 @@ export default function PitchPage() {
         </div>
 
         {/* SECTION 1: HERO */}
-        <section id="home" className="pt-40 pb-8 md:pt-48 md:pb-10 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col justify-center">
+        <section id="home" className="pt-24 pb-4 md:pt-28 md:pb-6 px-6 max-w-7xl mx-auto flex flex-col justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-12 items-center">
             <FadeIn className="flex flex-col items-start text-left">
               <div className="inline-flex items-center px-3 py-1 rounded-full border border-primary/20 bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-8">
@@ -117,7 +117,7 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 2: PROBLEM */}
-        <section id="problem" className="py-32 px-6 max-w-7xl mx-auto">
+        <section id="problem" className="pt-10 pb-24 px-6 max-w-7xl mx-auto">
           <FadeIn className="mb-16 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Problem</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">A Daily Margin Leak Hiding in Store Operations</h3>
@@ -204,7 +204,7 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 4: WORKFLOW */}
-        <section id="workflow" className="py-32 px-6 max-w-7xl mx-auto">
+        <section id="workflow" className="py-20 px-6 max-w-7xl mx-auto">
           <FadeIn className="mb-20 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Workflow</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">How the Recovery Engine Works</h3>
@@ -244,13 +244,6 @@ export default function PitchPage() {
             ))}
           </div>
 
-          <FadeIn delay={0.4} className="mt-16 pt-8 flex flex-col md:flex-row justify-center gap-8 border-t border-white/5">
-            <span className="text-xs font-mono tracking-wide text-muted-foreground uppercase">OCR: optional input aid, not product core</span>
-            <span className="text-xs font-mono tracking-wide text-muted-foreground uppercase hidden md:block">•</span>
-            <span className="text-xs font-mono tracking-wide text-muted-foreground uppercase">Markdown logic: rule-based first, not ML</span>
-            <span className="text-xs font-mono tracking-wide text-muted-foreground uppercase hidden md:block">•</span>
-            <span className="text-xs font-mono tracking-wide text-muted-foreground uppercase">Demand: opted-in repeat buyers</span>
-          </FadeIn>
         </section>
 
         {/* SECTION 5: SCOPE DISCIPLINE */}
