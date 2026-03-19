@@ -205,12 +205,9 @@ export default function PitchPage() {
 
         {/* SECTION 4: WORKFLOW */}
         <section id="workflow" className="py-20 px-6 max-w-7xl mx-auto">
-          <FadeIn className="mb-20 md:text-center">
+          <FadeIn className="mb-10 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Workflow</h2>
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">How the Recovery Engine Works</h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Version 1 covers three core capabilities. No more, no less.
-            </p>
+            <h3 className="text-3xl md:text-4xl font-bold text-white">How the Recovery Engine Works</h3>
           </FadeIn>
 
           <div className="flex flex-col lg:flex-row gap-6 relative">
