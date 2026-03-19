@@ -114,20 +114,6 @@ export default function PitchPage() {
             </FadeIn>
           </div>
 
-          <FadeIn delay={0.4} className="mt-24 pt-10 border-t border-white/5">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {[
-                "Narrow wedge — focused on perishables clearance only",
-                "Workflow-led — not AI-led, not a dashboard",
-                "Built for real store operations — 5-20 store chains"
-              ].map((bullet, i) => (
-                <div key={i} className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                  <p className="text-sm text-muted-foreground">{bullet}</p>
-                </div>
-              ))}
-            </div>
-          </FadeIn>
         </section>
 
         {/* SECTION 2: PROBLEM */}
