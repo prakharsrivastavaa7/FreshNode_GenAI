@@ -117,8 +117,8 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 2: PROBLEM */}
-        <section id="problem" className="pt-10 pb-24 px-6 max-w-7xl mx-auto">
-          <FadeIn className="mb-16 md:text-center">
+        <section id="problem" className="pt-6 pb-14 px-6 max-w-7xl mx-auto">
+          <FadeIn className="mb-8 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Problem</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">A Daily Margin Leak Hiding in Store Operations</h3>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -147,8 +147,8 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 3: WEDGE */}
-        <section id="wedge" className="py-32 px-6 max-w-7xl mx-auto border-y border-white/5 bg-white/[0.01]">
-          <FadeIn className="mb-16">
+        <section id="wedge" className="py-16 px-6 max-w-7xl mx-auto border-y border-white/5 bg-white/[0.01]">
+          <FadeIn className="mb-8">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Entry Point</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Why This Entry Point Wins First</h3>
             <p className="text-lg text-muted-foreground max-w-3xl">
@@ -204,7 +204,7 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 4: WORKFLOW */}
-        <section id="workflow" className="py-20 px-6 max-w-7xl mx-auto">
+        <section id="workflow" className="py-14 px-6 max-w-7xl mx-auto">
           <FadeIn className="mb-10 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">The Workflow</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white">How the Recovery Engine Works</h3>
@@ -244,9 +244,9 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 5: SCOPE DISCIPLINE */}
-        <section id="scope" className="py-32 px-6 bg-card/20 border-y border-white/5">
+        <section id="scope" className="py-16 px-6 bg-card/20 border-y border-white/5">
           <div className="max-w-5xl mx-auto">
-            <FadeIn className="mb-16 md:text-center">
+            <FadeIn className="mb-8 md:text-center">
               <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Focused by Design</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-white">A Store Recovery Tool. Nothing Else — Yet.</h3>
             </FadeIn>
@@ -291,8 +291,8 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 6: MODEL */}
-        <section id="model" className="py-32 px-6 max-w-7xl mx-auto">
-          <FadeIn className="mb-16 md:text-center">
+        <section id="model" className="py-16 px-6 max-w-7xl mx-auto">
+          <FadeIn className="mb-8 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Revenue Model</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Revenue Aligned to Store Outcomes</h3>
           </FadeIn>
@@ -329,9 +329,9 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 7: METRICS */}
-        <section id="metrics" className="py-32 px-6 bg-[#0d0d0d] border-y border-white/5">
+        <section id="metrics" className="py-16 px-6 bg-[#0d0d0d] border-y border-white/5">
           <div className="max-w-7xl mx-auto">
-            <FadeIn className="mb-16 md:text-center">
+            <FadeIn className="mb-8 md:text-center">
               <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Execution Metrics</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Proof That the Model Is Working</h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -374,8 +374,8 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 8: MOAT */}
-        <section id="moat" className="py-32 px-6 max-w-7xl mx-auto">
-          <FadeIn className="mb-16 md:text-center">
+        <section id="moat" className="py-16 px-6 max-w-7xl mx-auto">
+          <FadeIn className="mb-8 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Defensibility</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Where the Moat Actually Comes From</h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -402,7 +402,7 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION: OPERATOR MESSAGE */}
-        <section id="partners" className="py-24 px-6 max-w-4xl mx-auto">
+        <section id="partners" className="py-14 px-6 max-w-4xl mx-auto">
           <FadeIn>
             <div className="relative rounded-3xl border border-white/8 bg-[#111] overflow-hidden">
               {/* Subtle green gradient corner */}
@@ -440,9 +440,9 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 9: ROADMAP */}
-        <section id="roadmap" className="py-32 px-6 bg-[#0a0a0a] border-y border-white/5">
+        <section id="roadmap" className="py-16 px-6 bg-[#0a0a0a] border-y border-white/5">
           <div className="max-w-7xl mx-auto">
-            <FadeIn className="mb-20 md:text-center">
+            <FadeIn className="mb-8 md:text-center">
               <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Scale Path</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">From Narrow Wedge to Scaled Platform</h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -476,8 +476,8 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 10: MARKET */}
-        <section id="market" className="py-32 px-6 max-w-4xl mx-auto">
-          <FadeIn className="mb-16 md:text-center">
+        <section id="market" className="py-16 px-6 max-w-4xl mx-auto">
+          <FadeIn className="mb-8 md:text-center">
             <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Market</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">A Large Market Entered Through a Specific Pain</h3>
             <p className="text-lg text-muted-foreground">
@@ -523,9 +523,9 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 11: TIMING */}
-        <section id="timing" className="py-32 px-6 bg-[#0a0a0a] border-t border-white/5">
+        <section id="timing" className="py-16 px-6 bg-[#0a0a0a] border-t border-white/5">
           <div className="max-w-7xl mx-auto">
-            <FadeIn className="mb-16 md:text-center">
+            <FadeIn className="mb-8 md:text-center">
               <h2 className="text-sm font-semibold uppercase tracking-widest text-primary mb-4">Why Now</h2>
               <h3 className="text-3xl md:text-4xl font-bold text-white">The Conditions Are Right</h3>
             </FadeIn>
@@ -552,7 +552,7 @@ export default function PitchPage() {
         </section>
 
         {/* SECTION 12: FINAL CTA */}
-        <section id="contact" className="py-40 px-6 relative overflow-hidden">
+        <section id="contact" className="py-20 px-6 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] to-[#111811] z-0"></div>
           <div className="max-w-3xl mx-auto relative z-10 text-center">
             <FadeIn>
