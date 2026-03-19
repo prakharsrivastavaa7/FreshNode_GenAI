@@ -80,27 +80,35 @@ export default function PitchPage() {
               </div>
             </FadeIn>
 
-            <FadeIn delay={0.2} direction="left" className="relative lg:ml-auto w-full max-w-md">
-              <div className="relative z-10 bg-card/40 backdrop-blur-sm border border-white/10 rounded-3xl p-8 shadow-2xl glow-hover">
-                <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent rounded-3xl pointer-events-none"></div>
-                <div className="space-y-8 relative">
-                  {[
-                    { icon: Database, title: "At-risk stock identified" },
-                    { icon: Percent, title: "Markdown recommended" },
-                    { icon: MessageSquare, title: "WhatsApp clearance sent" },
-                    { icon: CheckCircle2, title: "Pickup reserved" }
-                  ].map((step, i) => (
-                    <div key={i} className="flex items-center gap-6 relative">
-                      {i !== 3 && (
-                        <div className="absolute top-10 left-5 w-px h-10 bg-gradient-to-b from-primary/50 to-transparent"></div>
-                      )}
-                      <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#111] border border-white/10 flex items-center justify-center relative z-10 shadow-inner">
-                        <step.icon className="h-4 w-4 text-primary" />
-                        <div className="absolute -right-1 -top-1 w-2.5 h-2.5 bg-primary rounded-full shadow-[0_0_8px_rgba(34,197,94,0.8)]"></div>
-                      </div>
-                      <span className="text-white font-medium">{step.title}</span>
-                    </div>
-                  ))}
+            <FadeIn delay={0.2} direction="left" className="relative lg:ml-auto w-full max-w-lg">
+              {/* Outer glow ring */}
+              <div className="absolute -inset-px rounded-3xl bg-gradient-to-br from-primary/20 via-transparent to-primary/5 pointer-events-none" />
+              {/* Premium dark frame */}
+              <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-[#111] shadow-[0_0_60px_rgba(34,197,94,0.08)] backdrop-blur-sm">
+                {/* Top bar chrome */}
+                <div className="flex items-center gap-1.5 px-4 py-3 bg-white/[0.04] border-b border-white/[0.06]">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/60" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/60" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-primary/60" />
+                  <span className="ml-auto text-[10px] text-white/20 font-mono tracking-wider uppercase">FreshNode Workflow</span>
+                </div>
+                {/* Image */}
+                <div className="relative">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/freshnode-hero.png`}
+                    alt="FreshNode same-day clearance workflow — dynamic pricing reduces food waste in neighborhood grocery stores"
+                    className="w-full h-auto object-contain block"
+                    style={{ aspectRatio: '2/3' }}
+                  />
+                  {/* Subtle bottom fade into dark bg */}
+                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#111] to-transparent pointer-events-none" />
+                </div>
+                {/* Caption */}
+                <div className="px-5 py-4 flex items-center gap-2">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                  <p className="text-xs text-white/40 font-mono tracking-wide">
+                    From at-risk inventory to same-day pickup
+                  </p>
                 </div>
               </div>
             </FadeIn>
